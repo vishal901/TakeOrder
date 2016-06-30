@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Take Order</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="contact">Contact List</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="order">Order List</string>
+    <string name="add_order">Add Order</string>
+    <string name="summary">Summary of Orders </string>
+    <string name="check">Check List</string>
+</resources>

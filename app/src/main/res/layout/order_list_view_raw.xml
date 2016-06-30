@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:weightSum="9">
+
+        <CheckBox
+            android:id="@+id/checkboxOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/tv_orderId_orderList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:lines="1"
+            android:text="1"
+            android:textColor="#3C3C3C"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_barcodeName_orderList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:gravity="left"
+            android:lines="1"
+            android:text="coo1"
+            android:textColor="#3C3C3C"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_quantity_orderList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:gravity="left"
+            android:lines="1"
+            android:text="321"
+            android:textColor="#3C3C3C"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_price_orderList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:gravity="left"
+            android:lines="1"
+            android:text="90"
+            android:textColor="#3C3C3C"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_description_orderList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:gravity="left"
+            android:lines="1"
+            android:text="abc"
+            android:textColor="#3C3C3C" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:src="@drawable/ic_action_edit" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:src="@drawable/ic_action_delete" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#CCC" />
+
+
+</LinearLayout>
